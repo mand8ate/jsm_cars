@@ -53,6 +53,6 @@ export interface CustomFilterProps {
 }
 
 export interface ShowMoreProps {
-  pageNumber: numnber;
+  pageNumber: number;
   isNext: boolean;
 }
