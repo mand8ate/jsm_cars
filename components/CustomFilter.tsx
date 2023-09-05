@@ -58,11 +58,9 @@ const CustomFilter = ({ title, options }: CustomFilterProps) => {
                 >
                   {({ selected }) => (
                     <span
-                      className={({ active }) =>
-                        `block truncate ${
-                          active ? "font-medium" : "font-normal"
-                        }`
-                      }
+                      className={`block truncate ${
+                        selected ? "font-medium" : "font-normal"
+                      }`}
                     >
                       {option.title}
                     </span>
